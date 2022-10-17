@@ -1,0 +1,20 @@
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 24;
+}
+.intl-tel-input .country-list {
+  z-index: 25;
+}
+
+.input-group .intl-tel-input .myInput {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+
+.myBtn {
+  text-align: left;
+}

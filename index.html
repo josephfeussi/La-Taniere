@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>La Tanière</title>
+    <link rel="shortcut icon" href="image/favicon2.png" type="image/x-icon" />
+    <!-- Bootstrap , fonts & icons  -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./fonts/icon-font/css/style.css" />
+    <link rel="stylesheet" href="./fonts/typography-font/typo.css" />
+    <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Plugin'stylesheets  -->
+    <link rel="stylesheet" href="./plugins/aos/aos.min.css" />
+
+    <!-- Vendor stylesheets  -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./css/my_css.css" />
+    <link rel="stylesheet" href="./css/intlTelInput.min.css" />
+  </head>
+
+  <body
+    data-theme-mode-panel-active
+    data-theme="light"
+    style="font-family: 'Mazzard H'"
+  >
+    <div class="site-wrapper overflow-hidden position-relative">
+      <!-- Site Header -->
+      <!-- Preloader -->
+       <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader2.gif" alt="preloader">
+   </div>
+   </div>    
+      <!--Site Header Area -->
+      <header
+        class="site-header site-header--menu-right landing-13-menu site-header--absolute site-header--sticky"
+      >
+        <div class="container">
+          <nav class="navbar site-navbar">
+            <!-- Brand Logo-->
+            <div class="brand-logo">
+              <a href="#">
+                <!-- light version logo (logo must be black)-->
+                <img
+                  src="image/logo/logo-black2.png"
+                  alt=""
+                  class="light-version-logo"
+                />
+                <!-- Dark version logo (logo must be White)-->
+                <img
+                  src="image/logo/logo-white2.png"
+                  alt=""
+                  class="dark-version-logo"
+                />
+              </a>
+            </div>
+            <div class="menu-block-wrapper">
+              <div class="menu-overlay"></div>
+              <nav class="menu-block" id="append-menu-header">
+                <div class="mobile-menu-head">
+                  <div class="go-back">
+                    <i class="fa fa-angle-left"></i>
+                  </div>
+                  <div class="current-menu-title"></div>
+                  <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="site-menu-main">
+                  <li class="nav-item nav-item-has-children">
+                    <a href="#" class="nav-link-item drop-trigger"
+                      >Our App <i class="fas fa-angle-down"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link-item">Live Scores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link-item">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link-item">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="https://uxtheme.net/product-support/"
+                      class="nav-link-item"
+                      >Support</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div
+              class="header-btn header-btn-l-13 ms-auto d-none d-xs-inline-flex"
+            >
+              <button
+                type="button"
+                class="btn btn download-btn focus-reset"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Register for Beta Testing
+              </button>
+            </div>
+            <!-- mobile menu trigger -->
+            <div class="mobile-menu-trigger">
+              <span></span>
+            </div>
+            <!--/.Mobile Menu Hamburger Ends-->
+          </nav>
+        </div>
+      </header>
+      <!-- navbar- -->
+      <!-- Hero Area -->
+      <div class="hero-area-l-13 position-relative overflow-hidden">
+        <div class="container">
+          <div class="row position-relative justify-content-center">
+            <div
+              class="col-xl-6 col-lg-6 col-sm-9"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-once="true"
+            >
+              <div class="banner-image-l-13">
+                <img src="./image/l3/home1.png" alt="" class="w-100" />
+              </div>
+            </div>
+            <div
+              class="offset-xl-1 col-xl-5 col-lg-6 col-md-8 col-sm-9"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-once="true"
+            >
+              <div class="content">
+                <h1>Register as Beta Tester Now!</h1>
+                <p>
+                  Download our App and Get latest infos on world cup, and
+                  Cameroun Elite One.
+                </p>
+                <div class="apps-btn">
+                  <a href="#" class="app-store"
+                    ><img src="image/l3/app-store.png" alt=""
+                  /></a>
+                  <a href="#" class="app-store"
+                    ><img src="image/l3/google-play.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-shape-13"></div>
+      </div>
+      <!-- content-1 section start -->
+      <div class="content-area-l-13-1 position-relative overflow-hidden">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="border-bottom">
+                <div class="row justify-content-center">
+                  <div class="col-xl-11">
+                    <div
+                      class="row align-items-center justify-content-center justify-content-lg-start"
+                    >
+                      <div
+                        class="offset-lg-1 col-lg-5 col-md-8 col-sm-10 order-lg-1 order-1"
+                        data-aos="fade-right"
+                        data-aos-duration="800"
+                        data-aos-once="true"
+                      >
+                        <div class="content section-heading-7">
+                          <h2>Latest live scores</h2>
+                          <p>
+                            Get the latest live scores on Cameroon MTN Elite one
+                            championship and Fifa World Cup.
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="offset-lg-1 col-lg-5 col-md-8 col-sm-10 position-relative order-lg-1 order-0"
+                        data-aos="fade-left"
+                        data-aos-duration="800"
+                        data-aos-once="true"
+                      >
+                        <div class="app-image-position-l-13">
+                          <img
+                            src="image/l3/live score.png"
+                            alt=""
+                            class="w-100"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-1 section start -->
+      <div class="content-area-l-13-2 position-relative overflow-hidden">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="border-bottom">
+                <div class="row justify-content-center">
+                  <div class="col-xl-11">
+                    <div
+                      class="row align-items-center justify-content-center justify-content-lg-start"
+                    >
+                      <div
+                        class="col-lg-6 col-md-8 col-sm-10"
+                        data-aos="fade-right"
+                        data-aos-duration="800"
+                        data-aos-once="true"
+                      >
+                        <div class="app-image-position-l-13">
+                          <img
+                            src="image/l3/tweets.png"
+                            alt=""
+                            class="w-100"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="offset-lg-1 col-lg-5 col-md-8 col-sm-10 position-relative"
+                        data-aos="fade-left"
+                        data-aos-duration="800"
+                        data-aos-once="true"
+                      >
+                        <div class="content section-heading-7">
+                          <h2>Latest News, Tweets and Posts</h2>
+                          <p>
+                            Read the latest feeds on your MTN Elite One
+                            championship, fecafoot facebook and twitter posts
+                            directly on your app.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-3 section start -->
+      <div class="content-area-l-13-3 position-relative overflow-hidden">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="border-bottom">
+                <div class="row justify-content-center">
+                  <div class="col-xl-11">
+                    <div
+                      class="row align-items-center justify-content-center justify-content-lg-start"
+                    >
+                      <div
+                        class="offset-lg-1 col-lg-5 col-md-8 col-sm-10 order-lg-1 order-1"
+                        data-aos="fade-right"
+                        data-aos-duration="800"
+                        data-aos-once="true"
+                      >
+                        <div class="content section-heading-7">
+                          <h2>Sales Products</h2>
+                          <p>
+                            Discover our in App marketplace and buy directly
+                            from our app, get original and official Fecafoot
+                            products directly from us.
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="offset-lg-1 col-lg-5 col-md-8 col-sm-10 position-relative order-lg-1 order-0"
+                        data-aos="fade-left"
+                        data-aos-duration="800"
+                        data-aos-once="true"
+                      >
+                        <div class="app-image-position-l-13">
+                          <img
+                            src="image/l3/prod.png"
+                            alt=""
+                            class="w-100"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial section start -->
+      <div
+        class="testimonial-area-l-13 position-relative overflow-hidden z-index-1"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-11">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="section-heading-7 text-center">
+                    <h2>Testers are loving the Idea</h2>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row testimonial-area-l-13-items justify-content-center"
+                data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-once="true"
+              >
+                <div class="col-xl-4 col-md-6 col-sm-8">
+                  <div class="testimonial-card bg-white">
+                    <p>
+                      “You made it so simple. My new site is so much faster and
+                      easier to work with than my old site. I just choose the
+                      page, make the change and click save.
+                    </p>
+                    <div class="d-flex customer-identity">
+                      <div class="customer-img">
+                        <img src="image/l3/client-img-2.png" alt="" />
+                      </div>
+                      <div class="content-body">
+                        <h5>Cameron Anderson</h5>
+                        <p>Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-8">
+                  <div class="testimonial-card bg-white">
+                    <p>
+                      “You made it so simple. My new site is so much faster and
+                      easier to work with than my old site. I just choose the
+                      page, make the change and click save.
+                    </p>
+                    <div class="d-flex customer-identity">
+                      <div class="customer-img">
+                        <img src="image/l3/client-img-2.png" alt="" />
+                      </div>
+                      <div class="content-body">
+                        <h5>Cameron Anderson</h5>
+                        <p>Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-8">
+                  <div class="testimonial-card bg-white">
+                    <p>
+                      “You made it so simple. My new site is so much faster and
+                      easier to work with than my old site. I just choose the
+                      page, make the change and click save.
+                    </p>
+                    <div class="d-flex customer-identity">
+                      <div class="customer-img">
+                        <img src="image/l3/client-img-2.png" alt="" />
+                      </div>
+                      <div class="content-body">
+                        <h5>Cameron Anderson</h5>
+                        <p>Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-8">
+                  <div class="testimonial-card bg-white">
+                    <p>
+                      “You made it so simple. My new site is so much faster and
+                      easier to work with than my old site. I just choose the
+                      page, make the change and click save.
+                    </p>
+                    <div class="d-flex customer-identity">
+                      <div class="customer-img">
+                        <img src="image/l3/client-img-2.png" alt="" />
+                      </div>
+                      <div class="content-body">
+                        <h5>Cameron Anderson</h5>
+                        <p>Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-8">
+                  <div class="testimonial-card bg-white">
+                    <p>
+                      “You made it so simple. My new site is so much faster and
+                      easier to work with than my old site. I just choose the
+                      page, make the change and click save.
+                    </p>
+                    <div class="d-flex customer-identity">
+                      <div class="customer-img">
+                        <img src="image/l3/client-img-2.png" alt="" />
+                      </div>
+                      <div class="content-body">
+                        <h5>Cameron Anderson</h5>
+                        <p>Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-8">
+                  <div class="testimonial-card bg-white">
+                    <p>
+                      “You made it so simple. My new site is so much faster and
+                      easier to work with than my old site. I just choose the
+                      page, make the change and click save.
+                    </p>
+                    <div class="d-flex customer-identity">
+                      <div class="customer-img">
+                        <img src="image/l3/client-img-2.png" alt="" />
+                      </div>
+                      <div class="content-body">
+                        <h5>Cameron Anderson</h5>
+                        <p>Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-shape-3"></div>
+      </div>
+
+      <!-- Modal section start -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Register for beta test
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form method="POST" action="https://joan500.pythonanywhere.com/api/landing/landing" class="was-validated">
+                <div class="mb-3">
+                  <label for="first_name" class="col-form-label"
+                    >First Name:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="first_name"
+                    placeholder="first name"
+                    required="true"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="last_name" class="col-form-label"
+                    >Last Name:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="last_name"
+                    placeholder="last name"
+                    required="true"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="phone" class="col-form-label"
+                    >Telephone:</label
+                  >
+                  <br>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="+237600000000"
+                    required="true"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="col-form-label"
+                    >Email:</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                    required="true"
+                  />
+                </div>
+
+                <div  class="myBtn">
+                  <button
+                type="submit"
+                class="btn btn-primary "
+              >
+                Register
+              </button>
+                </div>
+                
+
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA-area start -->
+      <div
+        class="cta-area-l-13"
+        data-aos="fade-left"
+        data-aos-duration="800"
+        data-aos-once="true"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-12">
+              <div class="row justify-content-center">
+                <div class="col-xxl-7 col-xl-8 text-center">
+                  <div class="content">
+                    <span class="tagline">Time to take action</span>
+                    <h2>
+                      Join over 30,000+ happy testers & get intouch with our
+                      latest app release.
+                    </h2>
+                    <div class="apps-btn">
+                      <a href="#" class="app-store"
+                        ><img src="image/l3/app-store.png" alt=""
+                      /></a>
+                      <a href="#" class="app-store"
+                        ><img src="image/l3/google-play.png" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Area -->
+      <footer class="footer-l-13 text-center text-md-start">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="footer-border-l-13"></div>
+            </div>
+          </div>
+          <div class="row footer-l-13-items">
+            <div class="col-md-3">
+              <div class="footer-logo-l-13">
+                <a href="#"
+                  ><img src="image/logo/logo-black2.png" alt="logo"
+                /></a>
+              </div>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-3">
+              <div class="copyright-area-l-13 text-center text-md-right">
+                <p>© La Tanière 2022 All right reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Vendor Scripts -->
+    <script src="js/vendor.min.js"></script>
+    <script src="./plugins/aos/aos.min.js"></script>
+    <script src="./plugins/menu/menu.js"></script>
+    <!-- Activation Script -->
+    <script src="js/custom.js"></script>
+    <!-- getBootStrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Use as a Vanilla JS plugin -->
+    <script src="./js/intlTelInput.min.js"></script>
+    <!-- Use as a jQuery plugin -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./js/intlTelInput-jquery.min.js"></script>
+    <script src="js/my_js.js"></script>
+  </body>
+</html>
