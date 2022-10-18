@@ -1,5 +1,5 @@
 // Vanilla Javascript
-var input = document.querySelector("#phoneNumber");
+var input = document.querySelector("#phone");
 window.intlTelInput(input,({
   // options here
   allowDropdown:true,
