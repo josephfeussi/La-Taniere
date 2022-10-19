@@ -2059,6 +2059,10 @@ li.sub-menu--item.nav-item-has-children i {
     font-size: 60px;
     line-height: 70px;
   }
+
+  .hero-area-l-13 .content .reg-btn {
+    display: none;
+   }
 }
 
 @media (min-width: 1200px) {
@@ -2066,7 +2070,12 @@ li.sub-menu--item.nav-item-has-children i {
     font-size: 70px;
     line-height: 72px;
   }
+
+  .hero-area-l-13 .content .reg-btn {
+   display: none;
+  }
 }
+
 
 .hero-area-l-13 .content p {
   font-family: Rubik;
@@ -2079,7 +2088,7 @@ li.sub-menu--item.nav-item-has-children i {
   margin: 25px 0px 35px 0px;
 }
 
-.hero-area-l-13 .content .btn {
+.mmmhero-area-l-13 .content .btn {
   min-width: 210px;
   height: 60px;
   background: #FC593B;
@@ -2121,6 +2130,10 @@ li.sub-menu--item.nav-item-has-children i {
   .banner-image-l-13 {
     margin-top: -100px;
   }
+  
+  .hero-area-l-13 .content .reg-btn {
+    display: none;
+   }
 }
 
 .header-btn-l-13 .download-btn {

@@ -93,21 +93,21 @@
                 </div>
                 <ul class="site-menu-main">
                   <li class="nav-item nav-item-has-children">
-                    <a href="#" class="nav-link-item drop-trigger"
+                    <a href="#part_one" class="nav-link-item drop-trigger"
                       >Our App <i class="fas fa-angle-down"></i>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link-item">Live Scores</a>
+                    <a href="#part_two" class="nav-link-item">Score Direct</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link-item">News</a>
+                    <a href="#part_three" class="nav-link-item">Infos</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link-item">Products</a>
+                    <a href="#part_four" class="nav-link-item">Boutique</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link-item">Support</a>
+                    <a href="#part_five" class="nav-link-item">Témoignage</a>
                   </li>
                 </ul>
               </nav>
@@ -134,7 +134,10 @@
       </header>
       <!-- navbar- -->
       <!-- Hero Area -->
-      <div class="hero-area-l-13 position-relative overflow-hidden">
+      <div
+        class="hero-area-l-13 position-relative overflow-hidden"
+        id="part_one"
+      >
         <div class="container">
           <div class="row position-relative justify-content-center">
             <div
@@ -154,10 +157,20 @@
               data-aos-once="true"
             >
               <div class="content">
-                <h1>Register as Beta Tester Now!</h1>
+                <h1>Inscrivez-vous maintenant !!</h1>
+                <button
+                  type="button"
+                  class="btn btn-success btn-sm reg-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Devenir Testeur
+                </button>
+
                 <p>
-                  Download our App and Get latest infos on world cup, and
-                  Cameroun Elite One.
+                  Téléchargez notre application et découvrez les exclusivités
+                  des équipes nationales de football et les championnats
+                  camerounais de football.
                 </p>
                 <div class="apps-btn">
                   <a href="#" class="app-store"
@@ -174,7 +187,10 @@
         <div class="bg-shape-13"></div>
       </div>
       <!-- content-1 section start -->
-      <div class="content-area-l-13-1 position-relative overflow-hidden">
+      <div
+        class="content-area-l-13-1 position-relative overflow-hidden"
+        id="part_two"
+      >
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-12">
@@ -191,10 +207,11 @@
                         data-aos-once="true"
                       >
                         <div class="content section-heading-7">
-                          <h2>Latest live scores</h2>
+                          <h2>Scores en direct</h2>
                           <p>
-                            Get the latest live scores on Cameroon MTN Elite one
-                            championship and Fifa World Cup.
+                            Obtenez les scores en direct du championnat MTN
+                            Elite one/Elite two/Guinness super league et de la
+                            Coupe du monde de la FIFA Qatar 2022.
                           </p>
                         </div>
                       </div>
@@ -221,7 +238,10 @@
         </div>
       </div>
       <!-- content-1 section start -->
-      <div class="content-area-l-13-2 position-relative overflow-hidden">
+      <div
+        class="content-area-l-13-2 position-relative overflow-hidden"
+        id="part_three"
+      >
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-12">
@@ -248,11 +268,12 @@
                         data-aos-once="true"
                       >
                         <div class="content section-heading-7">
-                          <h2>Latest News, Tweets and Posts</h2>
+                          <h2>Dernières nouvelles, tweets et posts</h2>
                           <p>
-                            Read the latest feeds on your MTN Elite One
-                            championship, fecafoot facebook and twitter posts
-                            directly on your app.
+                            Recevez les dernières d'informations sur les
+                            championnats camerounais, les images exclusives des
+                            équipes nationales, des messages Facebook et Twitter
+                            de la fecafoot directement sur votre smartphone.
                           </p>
                         </div>
                       </div>
@@ -265,7 +286,10 @@
         </div>
       </div>
       <!-- content-3 section start -->
-      <div class="content-area-l-13-3 position-relative overflow-hidden">
+      <div
+        class="content-area-l-13-3 position-relative overflow-hidden"
+        id="part_four"
+      >
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-12">
@@ -282,11 +306,11 @@
                         data-aos-once="true"
                       >
                         <div class="content section-heading-7">
-                          <h2>Sales Products</h2>
+                          <h2>Boutique</h2>
                           <p>
-                            Discover our in App marketplace and buy directly
-                            from our app, get original and official Fecafoot
-                            products directly from us.
+                            Vente des produits derivés achetez en un clic tous
+                            les produits des Lions Indomptables et ceux de vos
+                            équipes préférées du championnat MTN Élite One.
                           </p>
                         </div>
                       </div>
@@ -311,6 +335,7 @@
       <!-- Testimonial section start -->
       <div
         class="testimonial-area-l-13 position-relative overflow-hidden z-index-1"
+        id="part_five"
       >
         <div class="container">
           <div class="row justify-content-center">
@@ -318,7 +343,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="section-heading-7 text-center">
-                    <h2>Testers are loving the Idea</h2>
+                    <h2>Les testeurs aiment</h2>
                   </div>
                 </div>
               </div>
@@ -466,9 +491,10 @@
             </div>
             <div class="modal-body">
               <form
-                target="_blank"
-                method="POST"
-                action="https://joan500.pythonanywhere.com/api/landing/landing"
+                id="formElem"
+                targext="_blank"
+                metxhod="POST"
+                actxion="https://joan500.pythonanywhere.com/api/landing/landing"
                 class="was-validated"
               >
                 <div class="mb-3">
@@ -523,12 +549,14 @@
                   />
                 </div>
 
+                <button type="submit" class="btn btn-primary">Register</button>
+                <!--
                 <div class="myBtn">
                   <button type="submit" class="btn btn-primary">
                     Register
                   </button>
-                </div>
-              </form>
+                </div> 
+              --></form>
             </div>
             <div class="modal-footer">
               <button
@@ -536,6 +564,38 @@
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--   Modal Two -->
+      <div
+        class="modal fade"
+        id="exampleModalToggle2"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalToggleLabel2">Thanks</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Thanks for your registration. <br />
+              You would be notified when we launch.
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-dismiss="modal">
                 Close
               </button>
             </div>
