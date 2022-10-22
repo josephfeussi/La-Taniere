@@ -2052,6 +2052,10 @@ li.sub-menu--item.nav-item-has-children i {
     font-size: 40px;
     line-height: 46px;
   }
+
+  .hero-area-l-13 .content .reg-btn {
+    display: none;
+   }
 }
 
 @media (min-width: 768px) {
@@ -2075,7 +2079,6 @@ li.sub-menu--item.nav-item-has-children i {
    display: none;
   }
 }
-
 
 .hero-area-l-13 .content p {
   font-family: Rubik;
