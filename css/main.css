@@ -2318,6 +2318,8 @@ li.sub-menu--item.nav-item-has-children i {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
   border-radius: 5px;
   padding: 33px 35px 18px 35px;
+
+  height: 420px;
 }
 
 .testimonial-area-l-13 .testimonial-card p {
