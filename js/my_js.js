@@ -42,5 +42,8 @@ function submit_record() {
     alert("Veuillez remplir vos informations.");
   }
   
- 
 }
+
+$('#exampleModal').on('hidden.bs.modal', function () {
+    $('#exampleModal form')[0].reset();
+    });
